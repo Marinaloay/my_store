@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجري الإلكتروني</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>متجري الإلكتروني</h1>
+        <button id="cartButton">🛒 السلة (0)</button>
+    </header>
+
+    <main>
+        <h2>منتجاتنا</h2>
+
+        <div class="products">
+
+            <div class="product">
+                <div class="product-image">صورة المنتج</div>
+                <h3>المنتج الأول</h3>
+                <p>وصف بسيط للمنتج</p>
+                <strong>10 د.أ</strong>
+                <button onclick="addToCart()">أضف إلى السلة</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">صورة المنتج</div>
+                <h3>المنتج الثاني</h3>
+                <p>وصف بسيط للمنتج</p>
+                <strong>15 د.أ</strong>
+                <button onclick="addToCart()">أضف إلى السلة</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
